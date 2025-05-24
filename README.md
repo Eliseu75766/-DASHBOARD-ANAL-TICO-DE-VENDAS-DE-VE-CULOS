@@ -1,2 +1,2 @@
-# -DASHBOARD-ANAL-TICO-DE-VENDAS-DE-VE-CULOS
-Dashboard analítico interativo desenvolvido em Streamlit para visualização e data storytelling de vendas de veículos em concessionárias, fornecer uma ferramenta de análise visual para gestores e equipes de vendas, transformando dados brutos em informações acionáveis com uma experiência de usuário imersiva.
+#-PAINEL ANALTICO DE VENDAS DE VEICULOS
+Um Painel analítico futurista desenvolvido em Streamlit para visualização de dados e contato de histórias em concessões de veículos.
