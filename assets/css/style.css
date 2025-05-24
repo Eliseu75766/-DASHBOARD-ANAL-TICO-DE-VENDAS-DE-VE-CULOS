@@ -1,0 +1,433 @@
+/* Estilo futurista para o dashboard de vendas de veículos */
+
+/* Estilos gerais */
+body {
+    background-color: #0d0d0d;
+    color: #F8F8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Título principal */
+.main-title {
+    background: linear-gradient(90deg, rgba(13,13,13,0.9) 0%, rgba(0,255,255,0.2) 50%, rgba(13,13,13,0.9) 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-left: 3px solid #00FFFF;
+    border-right: 3px solid #FF5F1F;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.main-title h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, #00FFFF, #F8F8FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #FF5F1F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para sidebar */
+.sidebar-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: #00FFFF;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #00FFFF;
+    padding-bottom: 10px;
+}
+
+.filter-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #FF5F1F;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid #FF5F1F;
+    padding-left: 10px;
+}
+
+.filter-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Estilos para seções */
+.section-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #00FFFF;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgba(13, 13, 13, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid #00FFFF;
+}
+
+.subsection-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #FF5F1F;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 3px solid #FF5F1F;
+    padding-left: 10px;
+}
+
+/* Caixas de insights */
+.insight-box {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+.insight-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    color: #00FFFF;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.insight-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #F8F8FF;
+    line-height: 1.6;
+}
+
+.highlight-positive {
+    color: #33FF99;
+    font-weight: bold;
+}
+
+.highlight-negative {
+    color: #FF5F1F;
+    font-weight: bold;
+}
+
+/* Seção de download */
+.download-section {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.download-button {
+    background: linear-gradient(90deg, #00FFFF 0%, #0d0d0d 100%);
+    color: #F8F8FF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 1px solid #00FFFF;
+}
+
+.download-button:hover {
+    background: linear-gradient(90deg, #0d0d0d 0%, #00FFFF 100%);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Seção de IA */
+.ai-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #FF5F1F;
+    margin-bottom: 20px;
+    text-align: left;
+    background: rgba(13, 13, 13, 0.0);
+}
+
+.export-section {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 95, 31, 0.3);
+}
+
+.export-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #FF5F1F;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Controles */
+.control-section {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.control-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #00FFFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(248, 248, 255, 0.5);
+    border-top: 1px solid rgba(0, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+/* Animações e efeitos */
+@keyframes glow {
+    0% { box-shadow: 0 0 5px rgba(0, 255, 255, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(0, 255, 255, 0.5); }
+}
+
+.main-title {
+    animation: glow 3s infinite;
+}
+
+/* Ajustes para métricas */
+.st-emotion-cache-1wivap2 {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+}
+
+.st-emotion-cache-1wivap2 p {
+    color: #00FFFF !important;
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+.st-emotion-cache-1wivap2 .st-emotion-cache-1wbqd0j {
+    color: #F8F8FF !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Ajustes para tabs */
+.st-emotion-cache-1q1n0ol {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.st-emotion-cache-1q1n0ol:hover {
+    color: #00FFFF !important;
+}
+
+.st-emotion-cache-1q1n0ol[aria-selected="true"] {
+    color: #FF5F1F !important;
+    border-bottom-color: #FF5F1F !important;
+}
+
+/* Estilos para a seção de perguntas */
+.question-box {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+.suggested-questions {
+    margin-top: 15px;
+}
+
+.suggested-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #F8F8FF;
+    margin-bottom: 10px;
+}
+
+.answer-box {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 95, 31, 0.3);
+    box-shadow: 0 0 10px rgba(255, 95, 31, 0.1);
+}
+
+.question-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #FF5F1F;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 95, 31, 0.3);
+    padding-bottom: 10px;
+}
+
+.answer-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #F8F8FF;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.history-box {
+    background: rgba(13, 13, 13, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.history-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #00FFFF;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+.history-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #F8F8FF;
+    margin-bottom: 5px;
+}
+
+/* Efeitos de hover para botões */
+button {
+    transition: all 0.3s ease !important;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Efeitos para inputs */
+input, select, textarea {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+    color: #F8F8FF !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #00FFFF !important;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3) !important;
+}
+
+/* Personalização de sliders */
+.st-emotion-cache-1qg05tj {
+    background-color: rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-1qg05tj > div {
+    background-color: #00FFFF !important;
+}
+
+/* Personalização de selectbox */
+.st-emotion-cache-1inwz65 {
+    border-radius: 5px !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-1inwz65:hover {
+    border: 1px solid #00FFFF !important;
+}
+
+/* Personalização de multiselect */
+.st-emotion-cache-12w0qpk {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-12w0qpk:hover {
+    border: 1px solid #00FFFF !important;
+}
+
+/* Personalização de date input */
+.st-emotion-cache-b0x0na {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-b0x0na:hover {
+    border: 1px solid #00FFFF !important;
+}
+
+/* Personalização de file uploader */
+.st-emotion-cache-1erivf3 {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-1erivf3:hover {
+    border: 1px solid #00FFFF !important;
+}
+
+/* Personalização de dataframe */
+.st-emotion-cache-1q1n0ol {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+}
+
+.st-emotion-cache-1q1n0ol th {
+    background-color: rgba(0, 255, 255, 0.1) !important;
+    color: #00FFFF !important;
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+.st-emotion-cache-1q1n0ol td {
+    color: #F8F8FF !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Personalização de expander */
+.st-emotion-cache-1r6slb0 {
+    background-color: rgba(13, 13, 13, 0.7) !important;
+    border: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+.st-emotion-cache-1r6slb0:hover {
+    border: 1px solid #00FFFF !important;
+}
+
+/* Personalização de sidebar */
+.st-emotion-cache-16txtl3 {
+    background-color: rgba(13, 13, 13, 0.9) !important;
+    border-right: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+/* Personalização de main area */
+.st-emotion-cache-18ni7ap {
+    background-color: rgba(13, 13, 13, 0.8) !important;
+}
+
+/* Personalização de header */
+.st-emotion-cache-1avcm0n {
+    background-color: rgba(13, 13, 13, 0.9) !important;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
+
+/* Personalização de footer */
+.st-emotion-cache-1r6slb0 {
+    background-color: rgba(13, 13, 13, 0.9) !important;
+    border-top: 1px solid rgba(0, 255, 255, 0.3) !important;
+}
