@@ -1,2 +1,2 @@
 #-PAINEL ANALTICO DE VENDAS DE VEICULOS
-Um Painel analítico futurista desenvolvido em Streamlit para visualização de dados e contato de histórias em concessões de veículos.
+analítico futurista desenvolvido em Streamlit para visualização de dados e contato de histórias em concessões de veículos.
